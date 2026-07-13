@@ -1,0 +1,121 @@
+2026-07-12 19:24:35 | INFO     | ================================================================================
+2026-07-12 19:24:35 | INFO     | Hospital Operations Analytics ETL Pipeline
+2026-07-12 19:24:35 | INFO     | ================================================================================
+2026-07-12 19:24:35 | INFO     | 
+2026-07-12 19:24:35 | INFO     | Reading patients.csv
+2026-07-12 19:24:35 | INFO     | Rows Read : 1,163
+2026-07-12 19:24:35 | INFO     | Transforming Data...
+2026-07-12 19:24:35 | INFO     | Validating Data...
+2026-07-12 19:24:35 | INFO     | ======================================================================
+2026-07-12 19:24:35 | INFO     | VALIDATING PATIENTS
+2026-07-12 19:24:35 | INFO     | ======================================================================
+2026-07-12 19:24:35 | INFO     | Validating columns : patients
+2026-07-12 19:24:35 | INFO     | Checking Primary Key : Id
+2026-07-12 19:24:35 | INFO     | Validating UUID columns
+2026-07-12 19:24:35 | INFO     | Checking numeric columns
+2026-07-12 19:24:35 | INFO     | patients validation passed.
+
+2026-07-12 19:24:35 | INFO     | Loading into PostgreSQL...
+2026-07-12 19:24:35 | INFO     | Truncating table: patients
+2026-07-12 19:24:36 | INFO     | Loading patients
+2026-07-12 19:24:36 | INFO     | Rows: 1,163
+2026-07-12 19:24:36 | INFO     | patients loaded successfully.
+2026-07-12 19:24:36 | INFO     | patients completed successfully in 0.40 seconds.
+2026-07-12 19:24:36 | INFO     | 
+2026-07-12 19:24:36 | INFO     | Reading organizations.csv
+2026-07-12 19:24:36 | INFO     | Rows Read : 1,127
+2026-07-12 19:24:36 | INFO     | Transforming Data...
+2026-07-12 19:24:36 | INFO     | Validating Data...
+2026-07-12 19:24:36 | INFO     | ======================================================================
+2026-07-12 19:24:36 | INFO     | VALIDATING ORGANIZATIONS
+2026-07-12 19:24:36 | INFO     | ======================================================================
+2026-07-12 19:24:36 | INFO     | Validating columns : organizations
+2026-07-12 19:24:36 | INFO     | Checking Primary Key : Id
+2026-07-12 19:24:36 | INFO     | Validating UUID columns
+2026-07-12 19:24:36 | INFO     | Checking numeric columns
+2026-07-12 19:24:36 | INFO     | organizations validation passed.
+
+2026-07-12 19:24:36 | INFO     | Loading into PostgreSQL...
+2026-07-12 19:24:36 | INFO     | Truncating table: organizations
+2026-07-12 19:24:36 | INFO     | Loading organizations
+2026-07-12 19:24:36 | INFO     | Rows: 1,127
+2026-07-12 19:24:36 | INFO     | organizations loaded successfully.
+2026-07-12 19:24:36 | INFO     | organizations completed successfully in 0.18 seconds.
+2026-07-12 19:24:36 | INFO     | 
+2026-07-12 19:24:36 | INFO     | Reading providers.csv
+2026-07-12 19:24:36 | INFO     | Rows Read : 5,056
+2026-07-12 19:24:36 | INFO     | Transforming Data...
+2026-07-12 19:24:36 | INFO     | Validating Data...
+2026-07-12 19:24:36 | INFO     | ======================================================================
+2026-07-12 19:24:36 | INFO     | VALIDATING PROVIDERS
+2026-07-12 19:24:36 | INFO     | ======================================================================
+2026-07-12 19:24:36 | INFO     | Validating columns : providers
+2026-07-12 19:24:36 | INFO     | Checking Primary Key : Id
+2026-07-12 19:24:36 | INFO     | Validating UUID columns
+2026-07-12 19:24:36 | INFO     | providers validation passed.
+
+2026-07-12 19:24:36 | INFO     | Loading into PostgreSQL...
+2026-07-12 19:24:36 | INFO     | Truncating table: providers
+2026-07-12 19:24:36 | INFO     | Loading providers
+2026-07-12 19:24:36 | INFO     | Rows: 5,056
+2026-07-12 19:24:37 | INFO     | providers loaded successfully.
+2026-07-12 19:24:37 | INFO     | providers completed successfully in 0.71 seconds.
+2026-07-12 19:24:37 | INFO     | 
+2026-07-12 19:24:37 | INFO     | Reading payers.csv
+2026-07-12 19:24:37 | INFO     | Rows Read : 10
+2026-07-12 19:24:37 | INFO     | Transforming Data...
+2026-07-12 19:24:37 | INFO     | Validating Data...
+2026-07-12 19:24:37 | INFO     | ======================================================================
+2026-07-12 19:24:37 | INFO     | VALIDATING PAYERS
+2026-07-12 19:24:37 | INFO     | ======================================================================
+2026-07-12 19:24:37 | INFO     | Validating columns : payers
+2026-07-12 19:24:37 | INFO     | Checking Primary Key : Id
+2026-07-12 19:24:37 | INFO     | Validating UUID columns
+2026-07-12 19:24:37 | INFO     | Checking numeric columns
+2026-07-12 19:24:37 | INFO     | payers validation passed.
+
+2026-07-12 19:24:37 | INFO     | Loading into PostgreSQL...
+2026-07-12 19:24:37 | INFO     | Truncating table: payers
+2026-07-12 19:24:37 | INFO     | Loading payers
+2026-07-12 19:24:37 | INFO     | Rows: 10
+2026-07-12 19:24:37 | INFO     | payers loaded successfully.
+2026-07-12 19:24:37 | INFO     | payers completed successfully in 0.05 seconds.
+2026-07-12 19:24:37 | INFO     | 
+2026-07-12 19:24:37 | INFO     | Reading encounters.csv
+2026-07-12 19:24:37 | INFO     | Rows Read : 61,459
+2026-07-12 19:24:37 | INFO     | Transforming Data...
+2026-07-12 19:24:37 | INFO     | Validating Data...
+2026-07-12 19:24:37 | INFO     | ======================================================================
+2026-07-12 19:24:37 | INFO     | VALIDATING ENCOUNTERS
+2026-07-12 19:24:37 | INFO     | ======================================================================
+2026-07-12 19:24:37 | INFO     | Validating columns : encounters
+2026-07-12 19:24:37 | INFO     | Checking Primary Key : Id
+2026-07-12 19:24:37 | INFO     | Validating UUID columns
+2026-07-12 19:24:37 | INFO     | Checking numeric columns
+2026-07-12 19:24:37 | INFO     | encounters validation passed.
+
+2026-07-12 19:24:37 | INFO     | Loading into PostgreSQL...
+2026-07-12 19:24:37 | INFO     | Truncating table: encounters
+2026-07-12 19:24:37 | INFO     | Loading encounters
+2026-07-12 19:24:37 | INFO     | Rows: 61,459
+2026-07-12 19:24:52 | INFO     | encounters loaded successfully.
+2026-07-12 19:24:52 | INFO     | encounters completed successfully in 15.34 seconds.
+2026-07-12 19:24:52 | INFO     | 
+2026-07-12 19:24:52 | INFO     | ==========================================================================================
+2026-07-12 19:24:52 | INFO     | ETL EXECUTION SUMMARY
+2026-07-12 19:24:52 | INFO     | ==========================================================================================
+2026-07-12 19:24:52 | INFO     | Table                          Rows        Time(s)         Status
+2026-07-12 19:24:52 | INFO     | ------------------------------------------------------------------------------------------
+2026-07-12 19:24:52 | INFO     | patients                      1,163           0.40        SUCCESS
+2026-07-12 19:24:52 | INFO     | organizations                 1,127           0.18        SUCCESS
+2026-07-12 19:24:52 | INFO     | providers                     5,056           0.71        SUCCESS
+2026-07-12 19:24:52 | INFO     | payers                           10           0.05        SUCCESS
+2026-07-12 19:24:52 | INFO     | encounters                   61,459          15.34        SUCCESS
+2026-07-12 19:24:52 | INFO     | ------------------------------------------------------------------------------------------
+2026-07-12 19:24:52 | INFO     | Tables Loaded : 5/5
+2026-07-12 19:24:52 | INFO     | Failed Tables : 0
+2026-07-12 19:24:52 | INFO     | Total Rows    : 68,815
+2026-07-12 19:24:52 | INFO     | Total Time    : 16.68 sec
+2026-07-12 19:24:52 | INFO     | ==========================================================================================
+2026-07-12 19:24:52 | INFO     | 
+2026-07-12 19:24:52 | INFO     | ETL Pipeline Finished Successfully.
